@@ -30,14 +30,14 @@
 ></script>
 
 <script>
-  const MoodContractAddress = "0x31e5BaA6881Fc7b3218Ea69Cb12e8F2d78870778";
+  const MoodContractAddress = "0x2CF800C8B303E7feaD8C95c335236744198BD9ce";
   const MoodContractABI = [
 	{
 		"inputs": [
 			{
 				"internalType": "string",
 				"name": "_mood",
-				"type": "string "
+				"type": "string"
 			}
 		],
 		"name": "setMood",
@@ -58,7 +58,7 @@
 		"stateMutability": "view",
 		"type": "function"
 	}
-  ]
+]
   const provider = new ethers.providers.Web3Provider(window.ethereum, "rinkeby");
   let MoodContract;
   let signer;
